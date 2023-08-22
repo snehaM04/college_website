@@ -1,0 +1,85 @@
+body{
+    background-image:url('gct_coll.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+h1
+{
+    text-align: center;
+    text-decoration:underline;
+
+}
+
+h3{
+    text-align: center;
+    font-style:italic;
+
+}
+ul{
+  list-style-type: none;
+  margin:10px;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float:right;
+}
+
+li a {
+  display:block;
+  padding: 8px;
+  background-color: #dddddd;
+  text-align:center;
+  float:left;
+}
+a:hover{
+  background-color: aquamarine;
+}
+a:active{
+  background-color:black;
+}
+
+.regform{
+  width:300px;
+  background-color:rgba(0,0,0,.5);
+  margin: 100px auto;
+  padding:10px 20px 30px;
+  color:white;
+  border-radius:10px;
+  }
+  .regform .textbox
+  {
+      display:block;
+  }
+  .regform h4{
+    color:red;
+    text-align:center;
+    font-size: x-large;
+  }
+  .regform .radio{
+    font-size: large;
+  }
+.input input{
+  width:100;
+  font-size:1.5em;
+  border-radius: 8px;
+  box-sizing:border-box;
+
+}
+.btn 
+{
+  text-align:center;
+  
+}
+button{
+  background-color: aquamarine;
+  font-size:large;
+  padding:5px;
+}
+.radio input{
+  accent-color: red;
+  
+}
